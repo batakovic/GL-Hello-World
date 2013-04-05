@@ -38,5 +38,17 @@ class Person
         }
        
     }
+    
+    public function insert($data)
+    {
+        $this->dbAdapter->insert('person', $data);
+    }
+    
+    public function delete($data = array())
+    {
+        foreach ($data as $value) {
+            $this->dbAdapter->delete('person', "id = $value");
+        }
+    }
 }
 ?>
