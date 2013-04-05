@@ -1,9 +1,31 @@
 <?php
+/**
+* Person Model
+*
+* LICENSE: Commercial
+* 
+* @package CORE
+* @copyright Ivan Dudas
+* @license http://www.example.com/license
+* @version  1.0.0
+* @link  http://www.example.com
+* @since 2013
+*/
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
+/**
+* Person Model.
+*
+* LICENSE: Commercial
+* 
+* @package CORE
+* @copyright Ivan Dudas
+* @license http://www.example.com/license
+* @version  1.0.0
+* @link  http://www.example.com
+* @since 2013
+*/
 class Person
 {
     private $name;
